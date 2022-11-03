@@ -24,7 +24,6 @@ class Sky
       strokeWeight(1);
       point(this.position[i].x,this.position[i].y);
     }
-    
     pop();
   }
   

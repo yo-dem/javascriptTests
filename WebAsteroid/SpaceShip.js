@@ -75,6 +75,7 @@ class SpaceShip
     {
       this.position.y=0;
     }
+    
   }
   
   processBullets()

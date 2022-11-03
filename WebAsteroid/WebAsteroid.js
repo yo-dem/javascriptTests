@@ -46,4 +46,5 @@ function keyReleased()
       ship.stopTurnRight();
     break;
   }
+  
 }
