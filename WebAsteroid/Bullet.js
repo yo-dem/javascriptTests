@@ -8,6 +8,7 @@ class Bullet
     this.speed = createVector(0, 0);
     this.shipSpeed = createVector(shipSpeedX, shipSpeedY);
   }
+  
   show()
   {
     push();
@@ -20,4 +21,5 @@ class Bullet
     this.position.y+=this.speed.y;
     pop();
   }
+  
 }
