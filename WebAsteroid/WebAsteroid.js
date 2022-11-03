@@ -2,6 +2,7 @@ function setup()
 {
   createCanvas(windowWidth-50, windowHeight-50);
   noCursor();
+  
   ship = new SpaceShip(width/2, height/2);
   sky = new Sky(150);
 }

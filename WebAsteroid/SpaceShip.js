@@ -17,13 +17,13 @@ class SpaceShip
     if(!this.isDead)
     {
       push();
-      translate(this.position.x,this.position.y);
-      rotate(this.alpha);
-      triangle(-15,15,0,-15,15,15);
-      line(0,0,0,15);
-      rect(-17,2,5,15);
-      rect(12,2,5,15);
-      rect(-5,15,10,5);
+        translate(this.position.x,this.position.y);
+        rotate(this.alpha);
+        triangle(-15,15,0,-15,15,15);
+        line(0,0,0,15);
+        rect(-17,2,5,15);
+        rect(12,2,5,15);
+        rect(-5,15,10,5);
       pop();
       
       this.update();

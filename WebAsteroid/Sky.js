@@ -13,17 +13,17 @@ class Sky
   show()
   {
     push();
-    stroke(255);
-    for(let i=0;i<this.starNumber;i++)
-    {
-      if(i%5==0)
+      stroke(255);
+      for(let i=0;i<this.starNumber;i++)
       {
-        strokeWeight(random(3));
+        if(i%5==0)
+        {
+          strokeWeight(random(3));
+          point(this.position[i].x,this.position[i].y);
+        }
+        strokeWeight(1);
         point(this.position[i].x,this.position[i].y);
       }
-      strokeWeight(1);
-      point(this.position[i].x,this.position[i].y);
-    }
     pop();
   }
   
