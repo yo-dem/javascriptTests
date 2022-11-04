@@ -2,13 +2,13 @@ class SpaceShip
 {
   constructor(posX, posY)
   {
-    this.position = createVector(posX, posY);
-    this.speed = createVector(0,0);
-    this.alpha = 0;
-    this.bullets = [];
-    this.isMoving = false;
-    this.isTurningRight =false;
-    this.isTurningLeft =false;
+    this.position=createVector(posX, posY);
+    this.speed=createVector(0,0);
+    this.alpha=0;
+    this.bullets=[];
+    this.isMoving=false;
+    this.isTurningRight=false;
+    this.isTurningLeft=false;
     this.isDead=false;
   }
   
@@ -52,7 +52,6 @@ class SpaceShip
     this.position.y+=this.speed.y;
     this.position.x+=this.speed.x;
     
-    // Decelerate
     this.speed.x*=0.98;
     this.speed.y*=0.98;
     
@@ -126,5 +125,4 @@ class SpaceShip
   {
     this.isTurningLeft=false;
   }
-  
 }

@@ -2,7 +2,7 @@ class Sky
 {
   constructor(starNumber)
   {
-    this.starNumber = starNumber;
+    this.starNumber=starNumber;
     this.position=[];
     for(let i=0;i<this.starNumber;i++)
     {
@@ -26,5 +26,4 @@ class Sky
       }
     pop();
   }
-  
 }
